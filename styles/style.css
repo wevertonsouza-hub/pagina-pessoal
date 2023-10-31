@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Playpen Sans', cursive;
+}
+.fonte-branca{
+    color: white;
+}
+body{
+    background-color: rgb(99, 104, 86);
+}
+
+/* ==================================================== */
+/* Cabeçalho */
+header{
+    height: 115px;
+    background-color: white;
+}
+
+
+#primeiro-bloco{
+    height: 40%;
+    background-color: #1f300c57;
+    align-items: center;
+    border-bottom: solid 2px black;
+    
+}
+
+
+#primeiro-bloco ul{
+  width: 100%;  
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+#primeiro-bloco a{
+    border-left: solid 3px black;
+    padding-left: 20px;
+}
+
+#cursos{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#cursos table {
+    background-color: darkorange;
+    border-spacing: 15px;
+}
+ #cursos td {
+    background-color: brown;
+    width: 20%;
+    height: 50px;
+ }
+
+ #redes-sociais{
+    width: 50%;
+    margin: auto;
+ }
+ #redes-sociais ul{
+    display: flex;
+    justify-content: space-around;
+ }
